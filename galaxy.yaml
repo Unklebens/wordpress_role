@@ -1,0 +1,19 @@
+---
+namespace: community
+name: wordpress-role
+version: 1.0.0
+readme: README.md
+authors:
+  - Fahim KASSAMALY
+  - Frazer SADO (for inspiration and structure)
+  - The marble machine builder
+description: Install docker
+license_file: COPYING
+tags:
+  - v1
+repository: https://github.com/Unklebens/wordpress_role.git
+documentation: https://github.com/Unklebens/wordpress_role.git
+homepage: https://github.com/Unklebens/wordpress_role.git
+issues: https://github.com/Unklebens/wordpress_role.git
+build_ignore:
+  - .gitignore

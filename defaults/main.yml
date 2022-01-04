@@ -1,0 +1,15 @@
+---
+
+wpnetwork: wordpress
+
+wordpress_version: latest
+wordpress_container_name: wordpress
+
+# Docker mysql settings
+mariadb_version: 10.2.10
+mariadb_container_name: mysql
+mysql_exposed_port: 3306
+mysql_root_password: RootPa$$w0rd
+mysql_database: db_wordpress
+mysql_user: wordpress
+mysql_password: WordpressPa$$w0rd
