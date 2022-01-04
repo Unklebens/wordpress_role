@@ -23,9 +23,16 @@ Example Playbook
 
 Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
 
-    - hosts: servers
-      roles:
-         - { role: username.rolename, x: 42 }
+```
+- name: Wordpress in docker deployement
+  hosts: centos:ubuntu
+  become: true
+  vars_files:
+    - secret.yaml
+  roles:
+    - unklebens.docker_role
+    - unklebens.wordpress_role
+```
 
 License
 -------
