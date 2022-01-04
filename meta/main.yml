@@ -1,6 +1,6 @@
 ---
 galaxy_info:
-  role_name: docker_role
+  role_name: wordpress_role
   author: Fahim
-  description: Ansible docker role
+  description: Ansible dockerbased wordpress role
   company: FKDS
