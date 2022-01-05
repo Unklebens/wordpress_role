@@ -9,6 +9,7 @@
     name: "{{ mariadb_container_name }}"
     image: "{{ mariadb_container_name }}"
     state: started
+    restart_policy: always
     env:
       MYSQL_ROOT_PASSWORD: "{{ mysql_root_password }}"
       MYSQL_DATABASE: "{{ mysql_database }}"
@@ -24,6 +25,7 @@
     name: "{{ wordpress_container_name }}"
     image: "{{ wordpress_container_name }}"
     state: started
+    restart_policy: always
     env:
       WORDPRESS_DB_HOST: mysql_host
       WORDPRESS_DB_USER: "{{ mysql_user }}"
